@@ -3,10 +3,7 @@ package net.ribos.orderservice.controller;
 import net.ribos.basedomains.dto.Order;
 import net.ribos.basedomains.dto.OrderEvent;
 import net.ribos.orderservice.kafka.OrderProducer;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
